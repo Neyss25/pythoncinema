@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-58**8=6vu_=q#9q6z#lo)53@ecnp3em@jy&3eo_bebux!*f3kh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://pythoncinema.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -81,6 +81,8 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
 
 
 # Password validation
